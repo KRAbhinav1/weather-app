@@ -45,58 +45,7 @@
     
 </body>
 <script>
-    // const getUserData = async()=>{
-    //     const Search = document.getElementById("search").value
-    //     if(!Search){
-    //         alert('Please enter a city')
-    //     }else{
-    //         const url = `https://api.openweathermap.org/data/2.5/weather?q=${Search}&appid=8ac5c4d57ba6a4b3dfcf622700447b1e&units=metric`
-    //     const response = await fetch(url)
-
-    //     if(response.status===200){
-    //         const data = await response.json()
-    //         // console.log(data);
-    //         let country = data.sys.country
-    //         let humidity = data.main.humidity
-    //         let wind = data.wind.speed
-    //         let pressure = data.main.pressure
-
-    //         let temp = data.main.temp_max
-    //         let feelslike = data.main.feels_like
-    //         let place = data.name
-
-    //         result.innerHTML = `
-    //            <ul style="list-style-type:none">
-    //             <li>Country </li>
-    //             <li style='color:white'>${country} </li>
-    //             <li>Humidity </li>
-    //             <li style='color:white'>${humidity} </li>
-    //             <li>wind</li>
-    //             <li style='color:white'>${wind} </li>
-    //             <li>pressure</li>
-    //             <li style='color:white'>${pressure} </li>
-    //             </ul>
-    //         `
-
-    //         temperature.innerHTML = `
-    //         <ul style="list-style-type:none">
-    //                 <li style="font-size:larger"><b>${temp}</b></li>
-                    
-    //                 <li style="font-size:larger"><b>Feels like ${feelslike}</b></li>
-    //                 <br>
-    //                 <li style="font-size:larger"><b>${place}</b></li>
-    //             </ul>
-    //             `
-
-
-                
-    //     }else if(response.status==404){
-    //         alert("City not found!")
-    //     }else{
-    //         console.log(response);
-    //     }
-    //     }
-    // }
+    
 const getUserData = async()=>{
     const Search = document.getElementById('search').value
     if(!Search){
