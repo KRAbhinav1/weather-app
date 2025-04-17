@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.container{
+    height: 85vh;
+    width:100vw;
+    background-color:floralwhite;
+}
+
+.table1 img{
+    margin-left:300px ;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+
+.table1 h1 ins{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.table2{
+    background-color:gray;
+}
+
+
+
+
